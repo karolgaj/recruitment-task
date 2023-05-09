@@ -24,7 +24,6 @@ export class AuthService {
       return this.generateToken().pipe(mergeMap((token) => {
         localStorage.setItem('currentUser', JSON.stringify({username, token: token.access_token}));
         this.currentUserSubject.next({username, token: token.access_token});
-        console.log(username, token)
         return this.currentUser;
       }))
     }

@@ -47,10 +47,21 @@ npm install
 `ng serve`
 
 
-4. Open your browser and navigate to `http://localhost:4200`.
+4. Open your browser and navigate to 
+
+`http://localhost:4200`.
 
 ## Recruitment Task
 
 There are several defects introduced in the application with varying levels of difficulty. Your task is to find and fix these defects to ensure the app works as expected.
+
+- Make sure applications is working correctly 
+  - State of the application
+  - Styling
+  - Authentication
+  - REST operations are correctly handled
+  - Navigation is working as it suppose
+  - Forms behaviour are correct
+- More own improvements are welcome 
 
 Good luck!
